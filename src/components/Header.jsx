@@ -1,9 +1,9 @@
 
-function Header (props){
-	
+function Header ({pageTitle,pageLink}){	
    return (
     <div> 
-      <h1>website Header {props.pageTitle}</h1>
+      <h1>{pageTitle}</h1>
+	  <p>{pageLink}</p>
 	
 	</div>  
    )
