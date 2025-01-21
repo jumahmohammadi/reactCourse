@@ -12,7 +12,7 @@ function Home(){
 	return (
 	    <div>
 		  <Header pageTitle="Home" pageLink="/home" />
-          <Sidebar studentNames={students}/>
+          <Sidebar studentNames={students} />
 		     
 		  <br />
 		  <br />
