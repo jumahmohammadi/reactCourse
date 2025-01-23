@@ -5,6 +5,9 @@ import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import NotFound from './pages/NotFound.jsx';
 import Header from './pages/Header.jsx';
+import Blog from './pages/blog/Blog.jsx';
+import NewPosts from './pages/blog/NewPosts.jsx';
+import VisitedPosts from './pages/blog/VisitedPosts.jsx';
 
 
 function App() {
@@ -15,6 +18,10 @@ function App() {
         <Route path='/' Component={Home}></Route>   
         <Route path='/contact' Component={Contact}></Route>
         <Route path='/about-us' Component={About}></Route>
+        <Route path='/blog' Component={Blog}>
+           <Route path='recents' Component={NewPosts}></Route>
+           <Route path='most-visited' Component={VisitedPosts}></Route>
+        </Route>
         <Route path='*' Component={NotFound}></Route>
     </Routes>
 

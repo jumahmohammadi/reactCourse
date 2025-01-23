@@ -1,0 +1,9 @@
+.menu li{
+	display:inline-block;
+	margin-right:10px;
+}
+.menu li a.active{
+	text-decoration:none;
+	font-weight:bold;
+	color:red; 
+}
