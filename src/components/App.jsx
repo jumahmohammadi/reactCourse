@@ -8,6 +8,8 @@ import Header from './pages/Header.jsx';
 import Blog from './pages/blog/Blog.jsx';
 import NewPosts from './pages/blog/NewPosts.jsx';
 import VisitedPosts from './pages/blog/VisitedPosts.jsx';
+import PostDetail from './pages/blog/PostDetail.jsx';
+import Search from './pages/blog/Search.jsx';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
            <Route path='recents' Component={NewPosts}></Route>
            <Route path='most-visited' Component={VisitedPosts}></Route>
         </Route>
+        <Route path='/post-detail/:post_id' Component={PostDetail}></Route>
+        <Route path='/search' Component={Search}></Route>
         <Route path='*' Component={NotFound}></Route>
     </Routes>
 
