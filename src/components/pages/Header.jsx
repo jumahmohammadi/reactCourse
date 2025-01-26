@@ -28,6 +28,9 @@ function Header(){
                 <li>
                     <NavLink to="/blog">Blog</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/use-effect">Use Effect</NavLink>
+                </li>
               </ul>
         </div>
     )

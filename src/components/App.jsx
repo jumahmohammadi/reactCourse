@@ -10,6 +10,9 @@ import NewPosts from './pages/blog/NewPosts.jsx';
 import VisitedPosts from './pages/blog/VisitedPosts.jsx';
 import PostDetail from './pages/blog/PostDetail.jsx';
 import Search from './pages/blog/Search.jsx';
+import Style from './Style.jsx';
+import Register from './Register.jsx';
+import Effect from './Effect.jsx';
 
 
 function App() {
@@ -26,6 +29,9 @@ function App() {
         </Route>
         <Route path='/post-detail/:post_id' Component={PostDetail}></Route>
         <Route path='/search' Component={Search}></Route>
+        <Route path='/style' Component={Style}></Route>
+        <Route path='/register' Component={Register}></Route>
+        <Route path='/use-effect' Component={Effect}></Route>
         <Route path='*' Component={NotFound}></Route>
     </Routes>
 

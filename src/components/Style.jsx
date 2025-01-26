@@ -16,6 +16,7 @@ function Style (){
 	       <h1 style={titleStyle} >Style2 </h1>
 		   <div className="banner">Banner</div>
 		   <section className={mystyle.section}></section>
+		   <section className={mystyle2.section}></section>
 	   </div>
 	)
 	

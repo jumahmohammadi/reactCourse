@@ -3,6 +3,7 @@ import {useState} from 'react';
 function Register(){
 	const [formData,setFormData]=useState({firstname:'',lastname:'',age:''});
 	
+	console.log(formData)
 	
 	return (
 	   <>
