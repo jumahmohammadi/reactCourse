@@ -1,0 +1,9 @@
+.product-list{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.product-item{
+    border:1px solid #a1a1a1; 
+    margin:15px;
+    text-align: center;
+}

@@ -31,6 +31,10 @@ function Header(){
                 <li>
                     <NavLink to="/use-effect">Use Effect</NavLink>
                 </li>
+
+                <li>
+                    <NavLink to="/products">Products</NavLink>
+                </li>
               </ul>
         </div>
     )

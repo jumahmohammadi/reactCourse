@@ -13,6 +13,7 @@ import Search from './pages/blog/Search.jsx';
 import Style from './Style.jsx';
 import Register from './Register.jsx';
 import Effect from './Effect.jsx';
+import Products from './Products/Products.jsx';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path='/style' Component={Style}></Route>
         <Route path='/register' Component={Register}></Route>
         <Route path='/use-effect' Component={Effect}></Route>
+        <Route path='/products' Component={Products}></Route>
         <Route path='*' Component={NotFound}></Route>
     </Routes>
 

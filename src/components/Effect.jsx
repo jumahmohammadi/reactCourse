@@ -7,7 +7,7 @@ export default function Effect() {
 //   useEffect(function(){
 //      console.log("Component mounted");
 //   },[name])
-
+     
      useEffect(function(){
          console.log("Component mounted");
 
