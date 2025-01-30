@@ -14,6 +14,7 @@ import Style from './Style.jsx';
 import Register from './Register.jsx';
 import Effect from './Effect.jsx';
 import Products from './Products/Products.jsx';
+import SingleComponent from './Products/SingleComponent.jsx';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path='/register' Component={Register}></Route>
         <Route path='/use-effect' Component={Effect}></Route>
         <Route path='/products' Component={Products}></Route>
+        <Route path='/product/:product_id' Component={SingleComponent}></Route>
         <Route path='*' Component={NotFound}></Route>
     </Routes>
 

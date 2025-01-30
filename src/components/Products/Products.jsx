@@ -1,4 +1,5 @@
 import axios from "axios";
+import { Link } from "react-router-dom";
 import { useEffect,useState } from "react"
 import "./style.css";
 
@@ -21,7 +22,7 @@ export default function Products() {
             {products.map((product)=> (
                 <div className="product-item" key={product.id}>
                     <img src={product.thumbnail} alt="" />
-                    <h2>{product.title}</h2>
+                    <h2><Link to={'/product/'+product.id}>{product.title}</Link></h2>
                     <h4>{product.price}</h4>
                 </div>
             ) )}
