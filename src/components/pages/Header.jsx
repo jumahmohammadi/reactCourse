@@ -35,6 +35,10 @@ function Header(){
                 <li>
                     <NavLink to="/products">Products</NavLink>
                 </li>
+
+                <li>
+                    <NavLink to="/context">Context</NavLink>
+                </li>
               </ul>
         </div>
     )

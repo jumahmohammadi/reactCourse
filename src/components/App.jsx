@@ -15,6 +15,7 @@ import Register from './Register.jsx';
 import Effect from './Effect.jsx';
 import Products from './Products/Products.jsx';
 import SingleComponent from './Products/SingleComponent.jsx';
+import ComponentA from './Context/ComponentA.jsx';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path='/use-effect' Component={Effect}></Route>
         <Route path='/products' Component={Products}></Route>
         <Route path='/product/:product_id' Component={SingleComponent}></Route>
+        <Route path='/context' Component={ComponentA}></Route>
         <Route path='*' Component={NotFound}></Route>
     </Routes>
 
