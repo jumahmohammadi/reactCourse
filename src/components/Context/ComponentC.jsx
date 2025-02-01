@@ -1,7 +1,9 @@
 import { useContext } from "react"
-import { titleContext } from "./ComponentA"
+import { TitleContext } from "./ComponentA"
+
 export default function ComponentC() {
-  const title= useContext(titleContext)
+
+  const title= useContext(TitleContext)
   return (
     <div>
         <h3>Component C</h3>

@@ -39,6 +39,9 @@ function Header(){
                 <li>
                     <NavLink to="/context">Context</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/reducer">Redecuer</NavLink>
+                </li>
               </ul>
         </div>
     )
