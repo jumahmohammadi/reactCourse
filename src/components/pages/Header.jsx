@@ -42,6 +42,20 @@ function Header(){
                 <li>
                     <NavLink to="/reducer">Redecuer</NavLink>
                 </li>
+
+                <li>
+                    <NavLink to="/call-back">Call Back </NavLink>
+                </li>
+
+                <li>
+                    <NavLink to="/ref">Ref </NavLink>
+                </li>
+
+                <li>
+                    <NavLink to="/custom-hook">Custom Hook </NavLink>
+                </li>
+
+
               </ul>
         </div>
     )

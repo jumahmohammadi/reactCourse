@@ -17,6 +17,9 @@ import Products from './Products/Products.jsx';
 import SingleComponent from './Products/SingleComponent.jsx';
 import ComponentA from './Context/ComponentA.jsx';
 import Reducer from './Reducer/Reducer.jsx';
+import Callback from './callback/Callback.jsx';
+import Ref from './Ref/Ref.jsx';
+import Customhook from './CustomHook/Customhook.jsx';
 
 
 function App() {
@@ -40,6 +43,9 @@ function App() {
         <Route path='/product/:product_id' Component={SingleComponent}></Route>
         <Route path='/context' Component={ComponentA}></Route>
         <Route path='/reducer' Component={Reducer}></Route>
+        <Route path='/call-back' Component={Callback}></Route>
+        <Route path='/ref' Component={Ref}></Route>
+        <Route path='/custom-hook' Component={Customhook}></Route>
         <Route path='*' Component={NotFound}></Route>
     </Routes>
 
