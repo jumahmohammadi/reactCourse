@@ -1,4 +1,7 @@
 import {Routes,Route } from 'react-router-dom';
+//  import "./../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+//  import "./../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+import "./App.css";
 
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
